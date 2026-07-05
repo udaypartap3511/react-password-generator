@@ -44,6 +44,9 @@ The application will be available at the local URL displayed in your terminal (t
 
 ![main-preview](<src/assets/password-generator-preview.png>)
 
+## LIVE DEMO
+[![Live Demo](https://img.shields.io/badge/Live-Demo-34A99D?style=for-the-badge)](https://react-password-generator-cyan.vercel.app/)
+
 ## 📚 What I Learned
 
 * Building reusable React components
