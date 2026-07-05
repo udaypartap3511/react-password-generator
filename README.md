@@ -1,21 +1,70 @@
-<<<<<<< HEAD
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Password Generator** built with **React** and **Tailwind CSS**. This application allows users to generate strong, customizable passwords by selecting the desired password length and choosing whether to include numbers and special characters.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Generate secure random passwords
+* Adjust password length using a slider
+* Include or exclude numbers
+* Include or exclude special characters
+* Copy the generated password to the clipboard with a single click
+* Clean, responsive, and user-friendly interface
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6+)
+* Tailwind CSS
+* Vite
 
-## Expanding the ESLint configuration
+## ⚛️ React Hooks Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-password-generator
-A responsive Password Generator built with React and Tailwind CSS. Generate secure, customizable passwords by adjusting length and selecting numbers or special characters. Built using React Hooks like useState, useCallback, useEffect, and useRef to demonstrate state management, performance optimization, and DOM manipulation.
->>>>>>> bd5a5e5fb3673b2bb6cbbd50ec54ee74bb885b5e
+### `useState`
+
+Manages the password, password length, and user-selected options such as numbers and special characters.
+
+### `useCallback`
+
+Memoizes the password generation function, preventing unnecessary function recreation and improving performance.
+
+### `useEffect`
+
+Automatically regenerates the password whenever the password length or selected options change.
+
+### `useRef`
+
+Provides direct access to the password input field, making it easy to select and copy the generated password.
+
+## ▶️ Getting Started
+
+The application will be available at the local URL displayed in your terminal (typically `http://localhost:5173`).
+
+## 📸 Preview
+
+![main-preview](<src/assets/password-generator-preview.png>)
+
+## 📚 What I Learned
+
+* Building reusable React components
+* Managing state with React Hooks
+* Optimizing functions with `useCallback`
+* Performing side effects with `useEffect`
+* Accessing DOM elements using `useRef`
+* Creating responsive interfaces with Tailwind CSS
+* Structuring React applications using Vite
+
+## 🔮 Future Improvements
+
+* Password strength indicator
+* Option to avoid ambiguous characters
+* Password history
+* Dark/Light mode
+* Copy success notification
+* Save user preferences
+
+## 👨‍💻 Author
+
+**Uday Partap Singh**
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
